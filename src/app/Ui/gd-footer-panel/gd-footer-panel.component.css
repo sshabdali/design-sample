@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: rgb(3, 3, 3);
+  border: 0;
+  border-bottom: 5px solid rgb(161, 34, 131);
+}
+
+.footer-panel-items li {
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.selected,
+.hovering {
+  color: rgb(161, 34, 131);
+  background-color: rgb(255, 255, 255);
+}
+
+.fa {
+  font-size: 22px;
+}

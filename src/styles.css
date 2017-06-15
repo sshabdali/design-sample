@@ -1,1 +1,96 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('//fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: rgb(247, 247, 247);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 45px;
+  font-size: 12px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.usp-info {
+  height: 45px;
+  color: white;
+  background-color: #333;
+  border-bottom: 5px solid #a12283;
+}
+
+.small-menu-search {
+  height: 45px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  background-color: #333;
+  border-top: 3px solid gray;
+}
+
+.delivery-message {
+  padding-top: 10px;
+  padding-left: 70px;
+}
+
+.small-nav-bar {
+  padding-left: 4px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  display: block;
+  float: left;
+  padding: 8px 16px;
+  font-size: 17px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+.blank-menu-item {
+  width: 150px;
+}
+
+.row {
+  margin-right: -4px;
+  margin-left: -4px;
+}
+
+@media only screen and (max-width: 786px) {
+  .footer {
+    display: none !important;
+  }
+}

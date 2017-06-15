@@ -1,0 +1,30 @@
+<div class="customer-review-box">
+  <div class="title">Customer Reviews & More Information</div>
+  <div class="block-info">
+    <div class="thumb-nail">
+      <img class="packshot-image" [src]="customerReviewVM.image">
+    </div>
+    <div class="rating">
+      {{customerReviewVM.score}}
+    </div>
+    <div class="bullets">
+      <p>GAME CUSTOMER SCORE {{customerReviewVM.score}}/5</p>
+      <p>Based on 57 verified reviews</p>
+      <p>Read all customer reviews</p>
+      <p>Browse top reviews below</p>
+    </div>
+    <br style="clear: left;" />
+  </div>
+
+  <div class="reviewer">Review by {{customerReviewVM.reviewerName}} - score {{customerReviewVM.rating}}</div>
+  <div class="content">
+    <div class="description">
+      {{customerReviewVM.description}}
+    </div>
+    <div class="next">
+      <i class="fa fa-arrow-circle-o-right fa-4x"></i>
+    </div>
+    <br style="clear: left;" />
+  </div>
+  <div class="read-more">Read full review >></div>
+</div>

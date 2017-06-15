@@ -1,0 +1,8 @@
+<ng-template #defaultContent>
+        <ng-content ></ng-content>
+</ng-template>
+
+
+<div class="content" *ngIf="selected">
+    <ng-container *ngTemplateOutlet="content? content : defaultContent"></ng-container>
+</div>

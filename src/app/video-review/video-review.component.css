@@ -1,0 +1,16 @@
+.video-reviews-box {
+  margin-top: 10px;
+}
+
+.review-image {
+  margin-left: 1px;
+}
+
+.video-message {
+  padding: 0.15em 1em;
+  margin-top: 6px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+}

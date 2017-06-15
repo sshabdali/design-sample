@@ -1,0 +1,50 @@
+.upsell-box {
+  min-height: 50px;
+  margin-top: 10px;
+}
+
+.upsell-container {
+  position: relative;
+}
+
+.upsell-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 0.15em 1em;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 2000px) {
+  .upsell-image {
+    width: 602px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .upsell-image {
+    width: 440px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .upsell-image {
+    width: 390px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .upsell-image {
+    width: 325px;
+    height: 120px;
+  }
+}

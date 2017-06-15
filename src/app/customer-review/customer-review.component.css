@@ -1,0 +1,52 @@
+.customer-review-box {
+  border: 1px solid #e0e0e0;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.thumb-nail {
+  float: left;
+  width: 25%;
+}
+
+.rating {
+  float: left;
+  width: 25%;
+  height: 100px;
+  margin: auto;
+  font-size: 3.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bullets {
+  float: left;
+  width: 50%;
+  padding-left: 4px;
+}
+
+.reviewer {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.description {
+  float: left;
+  width: 80%;
+}
+
+.next {
+  float: left;
+  width: 20%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.read-more {
+  margin-top: 10px;
+}

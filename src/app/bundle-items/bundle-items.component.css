@@ -1,0 +1,35 @@
+.bundle-box {
+  border: 1px solid #e0e0e0;
+}
+
+.thumbnail {
+  margin-bottom: 5px !important;
+}
+
+.items img {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.bundle-box .title {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.bundle-box .platform {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.plus {
+  position: absolute;
+  top: 30%;
+  right: -7%;
+  display: block;
+  font-size: 37px;
+}
+
+.thumbnail {
+  background-color: transparent;
+  border: 0;
+}
