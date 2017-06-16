@@ -1,14 +1,14 @@
 <div class="video-box">
   <div class="video-container visible-md visible-lg">
-    <img class="video-image" [src]="videoVm.image">
-    <div class="video-caption">
+    <img [src]="videoVm.image">
+    <div class="video-caption video-caption-overlap">
       <span class="fa fa-youtube-play fa-2x"></span>
-      <span class="video-title">{{videoVm.title}}</span>
+      <span>{{videoVm.title}}</span>
     </div>
   </div>
 
-  <div class="video-message hidden-md hidden-lg">
+  <div class="video-caption hidden-md hidden-lg">
     <span class="fa fa-youtube-play fa-2x"></span>
-    <span class="video-title">{{videoVm.title}}</span>
+    <span>{{videoVm.title}}</span>
   </div>
 </div>

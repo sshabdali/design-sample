@@ -11,7 +11,7 @@ export class ImportantInfoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.message = 'A bias studies. The unseen rolls with a supplier. Beneath a bomb alternative peers the upright developer.'
+    this.message = 'A bias studies. The unseen rolls with a supplier. Beneath a bomb alternative peers the upright developer rolls with a supplier alternative peers the upright.';
   }
 
 }

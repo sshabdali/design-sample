@@ -14,7 +14,7 @@ export class TradeInComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.image = "http://img.game.co.uk/merch2017/ecomm/espots/medium/PS4-169-M-ee.jpg";
+    this.image = 'http://via.placeholder.com/600x400';
     this.caption = "Earn Reward Point on all Trade Ins at Game";
   }
 

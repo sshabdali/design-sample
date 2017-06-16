@@ -14,7 +14,7 @@ export class UpsellComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.image = "http://img.game.co.uk/merch2017/ecomm/espots/medium/XBOX-149-M-ee.jpg";
+    this.image = 'http://via.placeholder.com/600x400';
     this.caption = "GAME EXCLUSIVE - View the Collector's Edition >>";
   }
 }

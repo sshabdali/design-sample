@@ -3,38 +3,26 @@
 }
 
 .video-container {
-  margin-top: 55px;
   position: relative;
+  margin-top: 55px;
 }
 
-.video-image {
-  max-width: 100%;
+.video-container img {
   height: auto;
+  max-width: 100%;
+}
+
+.video-caption-overlap {
+  position: absolute;
 }
 
 .video-caption {
-  position: absolute;
   bottom: 0;
-  left: 0;
-  z-index: 2;
   width: 100%;
   padding: 0.15em 1em;
   font-weight: 600;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
-  opacity: 1;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.video-message {
-  padding: 0.15em 1em;
-  font-weight: 600;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.7);
-  opacity: 1;
 }
 
 @media only screen and (max-width: 786px) {
@@ -42,3 +30,4 @@
     margin-top: 20px;
   }
 }
+

@@ -7,15 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScreenShotComponent implements OnInit {
 
-  screens: string[];
-  
-  constructor() { }
+  screens: Array<string> = [];
 
-  ngOnInit() {
+  constructor() {
+    //
+  }
+
+  ngOnInit(): void {
     this.screens = [
-      "http://via.placeholder.com/130x90",
-      "http://via.placeholder.com/130x90",
-      "http://via.placeholder.com/130x90"
+      'http://via.placeholder.com/210x135',
+      'http://via.placeholder.com/210x135',
+      'http://via.placeholder.com/210x135'
     ];
   }
 

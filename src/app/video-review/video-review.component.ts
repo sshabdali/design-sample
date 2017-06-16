@@ -13,9 +13,9 @@ export class VideoReviewComponent implements OnInit {
 
   ngOnInit() {
     this.videoReviews = [
-      "http://via.placeholder.com/130x90",
-      "http://via.placeholder.com/130x90",
-      "http://via.placeholder.com/130x90"
+      'http://via.placeholder.com/210x135',
+      'http://via.placeholder.com/210x135',
+      'http://via.placeholder.com/210x135'
     ];
   }
 
