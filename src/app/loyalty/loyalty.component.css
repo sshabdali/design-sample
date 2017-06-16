@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.loyalty-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .loyalty-caption {
   position: absolute;
   bottom: 0;

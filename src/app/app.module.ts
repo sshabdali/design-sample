@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PackshotComponent } from "app/packshot/packshot.component";
+import { BuyNowComponent } from 'app/buy-now/buy-now.component';
 import { ImportantInfoComponent } from "app/important-info/important-info.component";
 import { VideoTrailerComponent } from "app/video-trailer/video-trailer.component";
 import { ScreenShotComponent } from "app/screen-shot/screen-shot.component";
@@ -32,6 +33,7 @@ import { MyAccountInfoComponent } from "app/Ui/my-account-info/my-account-info.c
     MiniBasketComponent,
     MyAccountInfoComponent,
     PackshotComponent,
+    BuyNowComponent,
     ImportantInfoComponent,
     VideoTrailerComponent,
     ScreenShotComponent,

@@ -14,7 +14,7 @@ export class PackshotComponent implements OnInit {
 
   ngOnInit() {
     this.title = "Overwatch - Origins Edition";
-    this.imageUrl = "https://unsplash.it/600" //"http://via.placeholder.com/600x280"; 
+    this.imageUrl = "http://via.placeholder.com/395x440";
   }
 
 }

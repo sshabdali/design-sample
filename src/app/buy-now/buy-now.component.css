@@ -1,0 +1,64 @@
+.main{
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    padding: 12px;
+}
+
+.flag{
+    padding: 10px;
+    background-color: red;
+}
+
+.flag p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.short_detail{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.short_detail p{
+    margin: 0;
+}
+
+.val{
+    text-align: right;
+}
+
+.btn_custom{
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+}
+
+.condition{
+    padding-bottom: 20px;
+}
+
+.delivery_info {
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    margin-bottom: 16px;
+}
+
+.btn_default{
+    height: 50px;
+}
+
+.table{
+    margin-bottom: 10px;
+}
+
+.mpk tr{
+    width: 100%;
+    height: 40px;
+}
+
+.mpk td{
+    background-color: #fff;
+}

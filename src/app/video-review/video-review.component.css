@@ -4,6 +4,8 @@
 
 .review-image {
   margin-left: 1px;
+  max-width: 33%;
+  height: auto;    
 }
 
 .video-message {

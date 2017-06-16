@@ -1,29 +1,13 @@
-@media only screen and (max-width: 2000px) {
-  .packshot-image {
-    width: 600px;
-  }
+.pack_shot{
+    width: 100%;
+    height: 440px;
+    background-color: grey;
+    margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1366px) {
-  .packshot-image {
-    width: 420px;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .packshot-image {
-    width: 390px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .packshot-image {
-    width: 310px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .packshot-image {
-    width: 260px;
-  }
+.pack_shot img{
+	margin: auto;
+	display: block;  
+  max-width: 100%;
+  height: auto;
 }
