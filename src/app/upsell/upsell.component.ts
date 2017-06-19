@@ -14,7 +14,7 @@ export class UpsellComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.image = 'http://via.placeholder.com/600x400';
+    this.image = 'http://via.placeholder.com/800x300';
     this.caption = "GAME EXCLUSIVE - View the Collector's Edition >>";
   }
 }

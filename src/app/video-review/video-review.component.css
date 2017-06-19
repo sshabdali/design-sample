@@ -5,15 +5,12 @@
 .review-image {
   height: auto;
   max-width: 33%;
-  margin-left: 1px;
+  margin-left: 1px;  
 }
 
-.video-caption {
-  bottom: 0;
-  width: 100%;
-  padding: 0.15em 1em;
-  margin-top: 6px;
-  font-weight: 600;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.7);
+@media only screen and (max-width: 786px) {
+  .banner-caption {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }

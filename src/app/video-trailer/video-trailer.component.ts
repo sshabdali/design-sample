@@ -14,7 +14,7 @@ export class VideoTrailerComponent implements OnInit {
 
   ngOnInit() {
     this.videoVm = {
-      image: 'http://via.placeholder.com/620x350',
+      image: 'http://via.placeholder.com/800x400',
       url: "",
       title: "Launch the game trailer."
     }

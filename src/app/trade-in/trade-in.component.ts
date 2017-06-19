@@ -14,7 +14,7 @@ export class TradeInComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.image = 'http://via.placeholder.com/600x400';
+    this.image = 'http://via.placeholder.com/800x300';
     this.caption = "Earn Reward Point on all Trade Ins at Game";
   }
 

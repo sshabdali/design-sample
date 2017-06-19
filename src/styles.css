@@ -88,6 +88,37 @@ body {
   margin-left: -4px;
 }
 
+.banner-box {
+  min-height: 50px;
+  margin-top: 10px;
+}
+
+.banner-box img {
+  height: auto;
+  max-width: 100%;
+}
+
+.banner-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.banner-caption p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 12px;    
+}
+
+.banner-caption p i{
+    font-size: 25px;
+    color: #fff;
+    vertical-align: sub;
+    padding-right: 10px;
+}
+
 @media only screen and (max-width: 786px) {
   .footer {
     display: none !important;
