@@ -1,0 +1,25 @@
+.pack-shot {
+  width: 100%;
+  height: 440px;
+  margin-bottom: 10px;
+  background-color: grey;
+}
+
+.pack-shot img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .pack-shot-row {
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .pack-shot-row h3 {
+    font-size: 1.3em;
+  }
+}

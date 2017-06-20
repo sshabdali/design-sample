@@ -1,0 +1,43 @@
+ul.breadcrumb {
+  padding: 8px 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: '/\00a0';
+}
+
+ul.breadcrumb li a {
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  ul.breadcrumb {
+    position: absolute;
+    top: -755px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  ul.breadcrumb {
+    position: absolute;
+    top: -790px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  ul.breadcrumb {
+    position: absolute;
+    top: -810px;
+  }
+}

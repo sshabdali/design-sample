@@ -1,0 +1,60 @@
+.bundle-box {
+  margin-top: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.bundle-box .header {
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.thumbnail {
+  margin-bottom: 5px !important;
+}
+
+.items img {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.bundle-box .title {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.bundle-box .platform {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.plus {
+  position: absolute;
+  top: 30%;
+  right: -7%;
+  display: block;
+  font-size: 37px;
+}
+
+.thumbnail {
+  background-color: transparent;
+  border: 0;
+}
+
+.buy-now {
+  width: 100%;
+  padding: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #65cc34;
+}
+
+.bundle {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  border: 1px solid #e0e0e0;
+}

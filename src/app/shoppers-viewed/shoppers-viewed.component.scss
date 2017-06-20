@@ -1,0 +1,30 @@
+.shoppers-viewed-box {
+  margin-top: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.shoppers-viewed-box .header {
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.thumbnail {
+  margin-bottom: 5px !important;
+}
+
+.thumbnail > img {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.shoppers-viewed-box .content .title {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.shoppers-viewed-box .content .platform {
+  font-size: 0.8em;
+  text-align: center;
+}
+

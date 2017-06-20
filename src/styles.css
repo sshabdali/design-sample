@@ -99,28 +99,43 @@ body {
 }
 
 .banner-caption {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .banner-caption p {
-    margin: 0;
-    color: #fff;
-    font-size: 14px;
-    padding: 7px 12px;    
+  padding: 7px 12px;
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
 }
 
-.banner-caption p i{
-    font-size: 25px;
-    color: #fff;
-    vertical-align: sub;
-    padding-right: 10px;
+.banner-caption p i {
+  padding-right: 10px;
+  font-size: 25px;
+  color: #fff;
+  vertical-align: sub;
 }
 
 @media only screen and (max-width: 786px) {
   .footer {
     display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topnav {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+  }
+
+  .topnav a {
+    display: block;
+    float: none;
+    text-align: left;
   }
 }

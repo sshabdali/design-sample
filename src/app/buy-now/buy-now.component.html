@@ -56,7 +56,9 @@
             </div>
         </div>
     </div>
-    <div class="delivery_info"></div>
+    <div class="delivery_info">
+        <div (click)="showDialog = !showDialog">View delivery options for the item or check your local store.</div>
+    </div>
 
     <div class="mpk">
         <table class="table table-responsive">
@@ -79,3 +81,64 @@
         </table>
     </div>
 </div>
+
+
+<product-dialog [(visible)]="showDialog">
+    <div class="delivery-option-dialog">
+        <div class="header">Delivery option for Game for 'Overwatch - Origins Edition'</div>
+        <div class="content">
+            <p>We offer <strong>FREE</strong> delivery on all UK orders, plus competitive postage costs on EU and international
+                shipping on orders fulfilled by GAME.</p>
+            <table class="table table-bordered table-responsive visible-md visible-lg">
+                <thead>
+                    <tr>
+                        <th><strong>Delivery type</strong></th>
+                        <th><strong>Delivery Time</strong></th>
+                        <th><strong>Cost</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UK orders up to £74.99 (Royal Mail 2nd Class)</td>
+                        <td>2 to 3 working days</td>
+                        <td><strong>FREE</strong></td>
+                    </tr>
+                    <tr>
+                        <td>UK orders £75 - £149.99 (Hermes Tracked)</td>
+                        <td>2 to 3 working days</td>
+                        <td><strong>FREE</strong></td>
+                    </tr>
+                    <tr>
+                        <td>UK orders over £150 (DPD Tracked)</td>
+                        <td>1 working day</td>
+                        <td><strong>FREE</strong></td>
+                    </tr>
+                    <tr>
+                        <td>UK orders 1st Class (Paid Upgrade - Royal Mail 1st Class)</td>
+                        <td>1 to 2 working days</td>
+                        <td>£0.50</td>
+                    </tr>
+                    <tr>
+                        <td>UK orders Express (Paid Upgrade - DPD Tracked)</td>
+                        <td>1 working day*</td>
+                        <td>£3.95</td>
+                    </tr>
+                    <tr>
+                        <td>UK orders Saturday (Paid Upgrade - DPD Tracked)</td>
+                        <td>Order between Thursday 4pm and Friday 1pm</td>
+                        <td>£9.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Order before 3pm for same day dispatch. Monday to Friday, except on Bank Holidays. Digital purchases are excluded
+                from the total order value. All delivery times are estimated lead times and are not guaranteed.</p>
+
+            <p>Working day definition: Monday-Friday (Excludes Weekends and Bank Holidays)</p>
+
+            <div class="more">
+                To see all of our delivery options CLICK HERE
+            </div>
+        </div>
+    </div>
+</product-dialog>
