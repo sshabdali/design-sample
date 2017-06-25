@@ -1,0 +1,29 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;    
+    height: 320px;
+}
+
+.flex-item{
+   padding: 15px;
+   border: 1px solid purple;
+}
+
+.preown-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.preown-header {
+    padding: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    
+}
