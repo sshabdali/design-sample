@@ -21,6 +21,10 @@ import { SearchbarComponent } from "app/Ui/searchbar/searchbar.component";
 import { StoreFinderComponent } from "app/Ui/store-finder/store-finder.component";
 import { MiniBasketComponent } from "app/Ui/mini-basket/mini-basket.component";
 import { MyAccountInfoComponent } from "app/Ui/my-account-info/my-account-info.component";
+import { DialogComponent } from "app/dialog/dialog.component";
+import { BreadcrumbComponent } from "app/breadcrumb/breadcrumb.component";
+import { ProductDescriptionComponent } from "app/product-description/product-description.component";
+import { ScreenService } from "app/services/screen.service";
 
 @NgModule({
   declarations: [
@@ -33,13 +37,16 @@ import { MyAccountInfoComponent } from "app/Ui/my-account-info/my-account-info.c
     MiniBasketComponent,
     MyAccountInfoComponent,
     PackshotComponent,
-    BuyNowComponent,
     ImportantInfoComponent,
+    DialogComponent,
+    BreadcrumbComponent,
+    BuyNowComponent,
     VideoTrailerComponent,
     ScreenShotComponent,
     VideoReviewComponent,
     LoyaltyComponent,
     CustomerReviewComponent,
+    ProductDescriptionComponent,
     BundleItemsComponent,
     ShoppersViewedComponent,
     TradeInComponent,
@@ -48,7 +55,7 @@ import { MyAccountInfoComponent } from "app/Ui/my-account-info/my-account-info.c
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ScreenService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

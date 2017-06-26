@@ -1,0 +1,16 @@
+.video-reviews-box {
+  margin-top: 10px;
+}
+
+.review-image {
+  height: auto;
+  max-width: 33%;
+  margin-left: 1px;
+}
+
+@media only screen and (max-width: 786px) {
+  .banner-caption {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

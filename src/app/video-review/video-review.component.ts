@@ -3,15 +3,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'video-review',
   templateUrl: './video-review.component.html',
-  styleUrls: ['./video-review.component.css']
+  styleUrls: ['./video-review.component.scss']
 })
 export class VideoReviewComponent implements OnInit {
 
-  videoReviews: string[];
-  
-  constructor() { }
+  videoReviews: Array<string> = [];
 
-  ngOnInit() {
+  constructor() {
+    //
+  }
+
+  ngOnInit(): void  {
     this.videoReviews = [
       'http://via.placeholder.com/210x135',
       'http://via.placeholder.com/210x135',

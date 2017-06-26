@@ -1,7 +1,7 @@
 <header class="page-head">
 
   <div class="logo">
-    <a class="icon" href="#">
+    <a class="icon">
           <span>GAME</span>
         </a>
   </div>
@@ -10,10 +10,40 @@
     <input type="text" class="search-box" placeholder="Search">
   </form>
 
+  <div class="search-form-container" *ngIf="showSearchBar">
+    <form>
+      <input type="text" class="search-box" placeholder="Search">
+    </form>
+  </div>
+
   <div class="site-nav">
     <div class="nav-item"><span class="glyphicon glyphicon-user"></span> <span class="right-nav-item">Sign | Register</span></div>
-    <div class="nav-item"><span class="glyphicon glyphicon-map-marker"></span> <span class="right-nav-item">Store Finder <span class="caret"></span> </span></div>
-    <div class="nav-item"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="right-nav-item">3 <span class="caret"></span> </span></div>
+    <div class="nav-item"><span class="glyphicon glyphicon-map-marker"></span> <span class="right-nav-item">Store Finder <span class="caret"></span>      </span>
+    </div>
+    <div class="nav-item"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="right-nav-item">3 <span class="caret"></span> </span>
+    </div>
   </div>
 </header>
 
+<div class="usp-info visible-md visible-lg">
+  <div class="col-md-6 delivery-message text-right">FREE DELIVERY TO HOME OR STORE ON EVERYTHING </div>
+  <div class="col-md-6 delivery-message">FREE RETURNS VIA POST OR IN STORE</div>
+</div>
+
+<div class="small-menu-search visible-xs">
+  <div class="row">
+    <div class="col-xs-6" (click)="toggleNavigationMenu()"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="small-nav-bar">Menu</span></div>
+    <div class="col-xs-6" (click)="toggleSearchBar()"><span class="glyphicon glyphicon-search"></span><span class="small-nav-bar">Search</span></div>
+  </div>
+</div>
+
+<div class="topnav" *ngIf="showNavigationMenu">
+    <a class="blank-menu-item hidden-sm"></a>
+    <a class="active" href="#">Playstaion</a>
+    <a href="#">Xbox</a>
+    <a href="#">Nintendo</a>
+    <a href="#">PC</a>
+    <a href="#">Merchandise</a>        
+    <a href="#">Coming Soon</a>   
+    <a href="#">Deal</a>                   
+</div>

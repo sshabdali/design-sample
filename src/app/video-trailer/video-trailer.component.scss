@@ -1,0 +1,36 @@
+.video_trailer {
+  margin-top: 55px;
+}
+
+.video-trailer-dialog {
+  padding: 40px;
+  margin: -15px;
+  background-color: #f0f0f0;
+}
+
+.video-trailer-dialog .header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.video-trailer-dialog video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media only screen and (max-width: 786px) {
+  .video_trailer {
+    margin-top: 20px;
+  }
+
+  .video-trailer-dialog {
+    padding: 0;
+    margin: -12px;
+    background-color: #f0f0f0;
+  }
+
+  .video-trailer-dialog .header {
+    font-size: 1em;
+    font-weight: bold;
+  }
+}

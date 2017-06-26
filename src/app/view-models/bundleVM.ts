@@ -1,6 +1,6 @@
-import { thumbNail } from "./thumbNail";
+import { thumbNail } from './thumbNail';
 
 export interface bundleVM {
     bundle: thumbNail;
-    items: thumbNail[]
+    items: Array<thumbNail>
 }

@@ -1,13 +1,15 @@
-<div class="shoppers-viewed-box visible-md visible-lg">
-  <h3>Other shoppers also viewed</h3>
+<div class="shoppers-viewed-box  visible-md visible-lg">
   <div class="row">
-    <div *ngFor="let item of thumbNailVM" class="col-sm-6 col-md-3">
-      <div class="content">
-        <a href="#" class="thumbnail">
+    <div class="col-md-12">
+      <div class="header">Other shoppers also viewed</div>
+      <div *ngFor="let item of thumbNailVM" class="col-sm-6 col-md-3">
+        <div class="content">
+          <a href="#" class="thumbnail">
          <img [src] = "item.image" alt = "Generic placeholder thumbnail">
         </a>
-        <div class="title">{{item.title}}</div>
-        <div class="platform">({{item.platform}})</div>
+          <div class="title">{{item.title}}</div>
+          <div class="platform">({{item.platform}})</div>
+        </div>
       </div>
     </div>
   </div>

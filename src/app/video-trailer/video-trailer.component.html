@@ -1,8 +1,18 @@
 <div class="video_trailer">
   <div class="banner-box">
     <img [src]="videoVm.image" class="visible-md visible-lg">
-    <div class="banner-caption">
+    <div class="banner-caption" (click)="showDialog = !showDialog">
       <p><i class="fa fa-youtube-play"></i> Launch the game trailer</p>
     </div>
   </div>
 </div>
+
+<product-dialog [(visible)]="showDialog">
+  <div class="video-trailer-dialog">
+    <div class="header">'Overwatch Origins Edition - IGN Review'</div>
+    <video controls autoplay>
+      <source src="http://www.webestools.com/page/media/videoTag/BigBuckBunny.ogg" type="video/ogg">
+      <source src="http://www.webestools.com/page/media/videoTag/BigBuckBunny.webm" type="video/webm"> Your browser does not support the video tag or the file format of this video.
+    </video>
+  </div>
+</product-dialog>
